@@ -1,8 +1,18 @@
-# ngetes-bang
-{
-	"clientID": "pU14ASl0vlTaWCtHcuPJwQ==",
-	"serverToken": "1@nGhEwg6wRAavepPYFarYzQlnbubHVEKXEuU9DJ2UiqiAZFDgLSrldXdpYk5xvfIZj+JeTDshBk2D7w==",
-	"clientToken": "zx/7Z+0tTY7CWO1xWLbQWDMsb59/yvH1o7E07HTf+9o=",
-	"encKey": "rG0M/E2Cl3pnsgkeQJXU30UvNwFpdtE/eGrs1f3dfxI=",
-	"macKey": "4CjIkEhCnLxENZ0OI5OHlmZM8y0nqqNfPQH1F1qjDs8="
-}
+##Depoy
+```
+Ambil session.json di termux & deploy seperti mendeploy rest api
+Dan module harus lengkap biar bisa run otomatis
+
+```
+
+## CARA INSTALL
+
+```bash
+> termux-setup-storage [Y]
+> cd /sdcard
+> cd -r Alphabot /$HOME
+> cd Alphabot
+> bash install.sh 
+> npm start
+> Now scan the QR
+```
